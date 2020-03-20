@@ -1,0 +1,6 @@
+To plot the spherical harmonics in gnuplot:
+	set mapping spherical
+	splot "spherical-harmonics.dat" u 1:(0.5*pi-$2):3 w d
+
+	set view equal xyz
+   set size 0.5, 0.5
